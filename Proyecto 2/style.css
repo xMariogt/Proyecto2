@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 320px;
+    margin: 230px;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+
+#contar{
+
+    font-size: 50px;
+}
+
+.titulo{
+    font: bold;
+    font-size: 60px;
+}
+
+#aumentar{
+    border-color:greenyellow;
+}
+
+#disminuir{
+    border-color: red;
+}
+
+button{
+    cursor: pointer;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 15px;
+}
+
